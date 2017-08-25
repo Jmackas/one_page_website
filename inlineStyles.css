@@ -233,7 +233,8 @@ header {
 }
 
 .main section.page2 {
-    background: #555557 url(back-phone.png) no-repeat center -150px ;
+    /* background: #555557 url(back-phone.png) no-repeat center -150px ; */
+    background: lightblue;
 }
 
 .main section.page2 > img {
@@ -261,23 +262,10 @@ header {
 }
 
 .main section.page3 {
-    background: url(tilted-phone.png) no-repeat 156px -150px ;
+    /* background: url(tilted-phone.png) no-repeat 156px -150px ; */
+    background: lightgreen;
 }
 
-.main section.page3 .page_container {
-    overflow: hidden;
-    width: 500px;
-    right: -285px;
-}
-
-.main section.page3 h1 {
-    text-align: left;
-    padding: 0;
-    margin-bottom: 0;
-    font-size: 70px;
-    letter-spacing: -1px;
-    color: black;
-}
 
 .main section.page3 h2 {
     color: rgba(0,0,0,0.85);
