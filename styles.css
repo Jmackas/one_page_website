@@ -144,16 +144,19 @@ Page Five
 }
 
 .plans .plan1 {
-    border: 1px solid white;
+	background: #006c9b;
     width: 15%;
 }
 
 .plans .plan2 {
-    border: 1px solid white;
-    width: 15%;
+    border-top: 7px solid orange;
+    border-right: 7px solid orange;
+    border-left: 7px solid orange;
+    width: 30%;
 }
 
 .plans .plan3 {
-    border: 1px solid white;
+    background: #006c9b;
+
     width: 15%;
 }
