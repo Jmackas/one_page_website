@@ -99,3 +99,13 @@ Page Two
 /*********************
 Page Three
 *********************/
+.main section.page3 {
+	background: black;
+}
+
+.main section.page3 ul {
+	text-align: left;
+	font-size: 424%;
+	margin: 0 0 0 0;
+}
+
