@@ -1,0 +1,20 @@
+@font-face {
+    font-family: raleway;
+    src: url(elements/Raleway-Regular.ttf);
+}
+
+body {
+	color: white;
+	font-family: raleway;
+}
+
+h1 {
+	font-size: 1220%;
+	margin: 0 0 0 0;
+	text-align: center;
+}
+
+.main section.page1 {
+	background: black;
+}
+
