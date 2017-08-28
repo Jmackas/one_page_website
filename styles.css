@@ -28,6 +28,18 @@ h3 {
     margin: 0 0 0 0;
 }
 
+/* List styling dashes */
+.main li {
+	list-style-type: none;
+	text-align: left;
+}
+
+.main li:before {
+	content: '- ';
+}
+
+
+
 /* Side list colour change */
 .onepage-pagination li a:before {
     background: rgba(255, 255, 255, 0.85);
@@ -104,8 +116,21 @@ Page Three
 }
 
 .main section.page3 ul {
-	text-align: left;
-	font-size: 424%;
-	margin: 0 0 0 20px;
+	font-size: 310%;
+	margin: 15px 0 0 0;
+	
 }
 
+
+/*********************
+Page Four
+*********************/
+.main section.page4 {
+	background: #006c9b;
+}
+
+.main section.page4 ul {
+	font-size: 310%;
+	margin: 15px 0 0 0;
+	
+}
