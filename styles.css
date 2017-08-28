@@ -1,3 +1,6 @@
+/*********************
+Universal Elements
+*********************/
 @font-face {
     font-family: raleway;
     src: url(elements/Raleway-Regular.ttf);
@@ -6,15 +9,41 @@
 body {
 	color: white;
 	font-family: raleway;
+	text-align: center;
+	margin: 0;
 }
 
 h1 {
 	font-size: 1220%;
-	margin: 0 0 0 0;
-	text-align: center;
+	margin: 0 0 0 0;	
 }
+
+h3 {
+    font-size: 350%;
+    margin: 0 0 0 0;
+}
+
+
+/*********************
+Page One
+*********************/
 
 .main section.page1 {
 	background: black;
+}
+
+/*********************
+Media Queries
+*********************/
+/* Header size decreases */
+@media only screen and (max-width: 570px) {
+    h1 {
+		font-size: 705%;
+	
+	}
+	h3 {
+		font-size: 170%;
+	}
+		
 }
 
