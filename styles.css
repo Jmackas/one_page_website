@@ -30,15 +30,13 @@ h3 {
 
 /* List styling dashes */
 .main li {
-	list-style-type: none;
-	text-align: left;
+    list-style-type: none;
+    text-align: left;
 }
 
 .main li:before {
-	content: '- ';
+    content: '- ';
 }
-
-
 
 /* Side list colour change */
 .onepage-pagination li a:before {
@@ -103,6 +101,7 @@ Page Two
         padding: 0 10px;
         /* margin: 0; */
     }
+
     .aboutDouble img {
         display: none;
     }
@@ -112,25 +111,49 @@ Page Two
 Page Three
 *********************/
 .main section.page3 {
-	background: black;
+    background: black;
 }
 
 .main section.page3 ul {
-	font-size: 310%;
-	margin: 15px 0 0 0;
-	
+    font-size: 310%;
+    margin: 15px 0 0 0;
 }
-
 
 /*********************
 Page Four
 *********************/
 .main section.page4 {
-	background: #006c9b;
+    background: #006c9b;
 }
 
 .main section.page4 ul {
-	font-size: 310%;
-	margin: 15px 0 0 0;
-	
+    font-size: 310%;
+    margin: 15px 0 0 0;
+}
+
+/*********************
+Page Five
+*********************/
+.main section.page5 {
+    background: black;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+}
+
+.plans .plan1 {
+    border: 1px solid white;
+    width: 15%;
+}
+
+.plans .plan2 {
+    border: 1px solid white;
+    width: 15%;
+}
+
+.plans .plan3 {
+    border: 1px solid white;
+    width: 15%;
 }
