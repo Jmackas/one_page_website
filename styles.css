@@ -7,20 +7,20 @@ Universal Elements
 }
 
 body {
-	color: white;
-	font-family: raleway;
-	text-align: center;
-	margin: 0;
+    color: white;
+    font-family: raleway;
+    text-align: center;
+    margin: 0;
 }
 
 h1 {
-	font-size: 1220%;
-	margin: 0 0 0 0;	
+    font-size: 1220%;
+    margin: 0 0 0 0;
 }
 
 h2 {
-	font-size: 800%;
-	margin: 0 0 0 0;
+    font-size: 800%;
+    margin: 0 0 0 0;
 }
 
 h3 {
@@ -29,74 +29,73 @@ h3 {
 }
 
 /* Side list colour change */
-.onepage-pagination li a:before{
-  background: rgba(255, 255, 255, 0.85);
+.onepage-pagination li a:before {
+    background: rgba(255, 255, 255, 0.85);
 }
 
-.onepage-pagination li a.active:before{
-  border: 1px solid white;
+.onepage-pagination li a.active:before {
+    border: 1px solid white;
 }
-
 
 /* Header size decreases */
 @media only screen and (max-width: 570px) {
     h1 {
-		font-size: 705%;
-	
-	}
+        font-size: 705%;
+    }
 
-	h2 {
-		font-size: 336%;
-	}
+    h2 {
+        font-size: 336%;
+    }
 
-	h3 {
-		font-size: 170%;
-	}
-		
+    h3 {
+        font-size: 170%;
+    }
 }
 
 /*********************
 Page One
 *********************/
-
 .main section.page1 {
-	background: black;
+    background: black;
 }
 
 /*********************
 Page Two
 *********************/
 .main section.page2 {
-	background: #006c9b;
+    background: #006c9b;
 }
 
 .aboutDouble {
-	
 }
 
 /* Left image */
 .aboutDouble .logoImg {
-	float: left;
+    float: left;
+    width: 35%;
 }
 
 .aboutDouble .logoImg img {
-	width: 75%;
+    width: 85%;
 }
 
 /* right image */
 .aboutDouble .blurb {
-	
-font-size: 210%;
-	
-padding: 0 60px 0 0;
-	
-/* float: left; */
+    font-size: 210%;
+    padding: 0 60px 0 0;
 }
 
-
+@media only screen and (max-width: 570px) {
+    .aboutDouble .blurb {
+        float: initial;
+        padding: 0 10px;
+        /* margin: 0; */
+    }
+    .aboutDouble img {
+        display: none;
+    }
+}
 
 /*********************
-Media Queries
+Page Three
 *********************/
-
-
