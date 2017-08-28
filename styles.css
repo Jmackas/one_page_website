@@ -138,6 +138,10 @@ Page Five
     background: black;
 }
 
+.main section.page5 p {
+	font-size: 185%;
+}
+
 .plans {
     display: flex;
     justify-content: center;
@@ -160,9 +164,9 @@ Page Five
     width: 15%;
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 955px) {
     .plans .plan1, .plans .plan2, .plans .plan3 {
-	width: intial;
+	width: 100%;
 }
 
 }

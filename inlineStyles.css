@@ -395,7 +395,7 @@ body.disabled-onepage-scroll .main section > img {
 body.disabled-onepage-scroll code {
     width: 95%;
     margin: 0 auto 25px;
-    float: none;
+    float: none;\
     overflow: hidden;
 }
 
