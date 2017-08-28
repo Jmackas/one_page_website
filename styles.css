@@ -18,10 +18,25 @@ h1 {
 	margin: 0 0 0 0;	
 }
 
+h2 {
+	font-size: 800%;
+	margin: 0 0 0 0;
+}
+
 h3 {
     font-size: 350%;
     margin: 0 0 0 0;
 }
+
+/* Side list colour change */
+.onepage-pagination li a:before{
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.onepage-pagination li a.active:before{
+  border: 1px solid white;
+}
+
 
 
 /*********************
@@ -33,6 +48,13 @@ Page One
 }
 
 /*********************
+Page Two
+*********************/
+.main section.page2 {
+	background: #006c9b;
+}
+
+/*********************
 Media Queries
 *********************/
 /* Header size decreases */
@@ -41,6 +63,11 @@ Media Queries
 		font-size: 705%;
 	
 	}
+
+	h2 {
+		font-size: 336%;
+	}
+
 	h3 {
 		font-size: 170%;
 	}
