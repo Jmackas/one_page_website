@@ -15,7 +15,7 @@ body {
 }
 
 .page_container {
-		animation: fadein 2s;
+		animation: fadein 4s;
 }
 	@keyframes fadein {
 				from {
@@ -87,12 +87,12 @@ Page One
 .contactUs {
 	background: #006c9b;
 	display: inline-block;
-	/* margin: 0 0 0 0; */
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	border-top-right-radius: 34px;
 	padding: 30px;
+	    transition: .3s ease-in-out;
 }
 
 .contactUs:hover {
