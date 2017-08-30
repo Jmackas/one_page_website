@@ -5,12 +5,27 @@ Universal Elements
     font-family: raleway;
     src: url(elements/Raleway-Regular.ttf);
 }
+		  
 
 body {
     color: white;
     font-family: raleway;
     text-align: center;
     margin: 0;
+}
+
+.page_container {
+		animation: fadein 2s;
+}
+	@keyframes fadein {
+				from {
+					opacity:0;
+				}
+				to {
+					opacity:1;
+				}
+			
+
 }
 
 h1 {
