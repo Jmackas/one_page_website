@@ -189,7 +189,7 @@ Page Five
 .plans {
     display: flex;
     justify-content: center;
-    font-size: 136%;
+    font-size: 110%;
 }
 
 .plans .plan1 {
@@ -203,11 +203,11 @@ Page Five
     border-right: 7px solid orange;
     border-left: 7px solid orange;
     width: 30%;
-    background: #a7a7a7;
+    background: #6d6d6d;
 }
 
 .plans .plan3 {
-    background: darkgoldenrod;
+    background: #886000;
     width: 15%;
     padding: 7px;
 }
