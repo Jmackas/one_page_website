@@ -183,6 +183,7 @@ Page Five
 .main section.page5 h4 {
 	font-size: 150%;
 	margin: 18px;
+	text-shadow: 1.5px 1.5px 1.5px black;
 }
 
 .plans {
@@ -191,7 +192,7 @@ Page Five
 }
 
 .plans .plan1 {
-	background: #006c9b;
+	background: #8d3714;
 	width: 15%;
 	padding: 7px;
 }
@@ -201,11 +202,11 @@ Page Five
     border-right: 7px solid orange;
     border-left: 7px solid orange;
     width: 30%;
-    background: green;
+    background: #a7a7a7;
 }
 
 .plans .plan3 {
-    background: #006c9b;
+    background: darkgoldenrod;
     width: 15%;
     padding: 7px;
 }
