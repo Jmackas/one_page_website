@@ -243,12 +243,22 @@ Page Six
 	font-size: 185%;
 }
 
-footer {
-	background: black;
-	position: static;
-	bottom: 0;
+.contactUsNow {
+	padding: 20px;
+	display: inline-block;
+	background: #272727;
+	transition: .3s ease-in-out;
+	margin: 15px 0 0 0;
 }
 
+.contactUsNow:hover {
+	background: #4d4d4d;
+}
+
+.contactUsNow a {
+	padding: 20px;
+	color: white;
+}
 
 
 
