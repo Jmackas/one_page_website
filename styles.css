@@ -213,7 +213,14 @@ Page Five
 }
 
 .buyNowBtn {
-	
+	padding: 20px;
+	display: inline-block;
+	background: #006c9b;
+}
+
+.buyNowBtn a {
+	padding: 20px;
+	color: white;
 }
 
 @media only screen and (max-width: 955px) {
