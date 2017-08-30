@@ -239,7 +239,9 @@ Page Five
 /*********************
 Page Six
 *********************/
-
+.main section.page6 {
+	background: #006c9b;
+}
 
 
 
