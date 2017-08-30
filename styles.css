@@ -69,6 +69,18 @@ Page One
     background: #272727;
 }
 
+.contactUs {
+	background: red;
+	display: inline-block;
+	padding: 40px;
+}
+
+.contactUs a {
+	text-decoration: none;
+	color: white;
+	padding: 40px;
+}
+
 /*********************
 Page Two
 *********************/
