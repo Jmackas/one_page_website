@@ -151,7 +151,8 @@ Page Three
 }
 
 .main section.page3 ul {
-    font-size: 310%;
+    font-size: 230%;
+    line-height: 155%;
     margin: 15px 0 0 0;
 }
 
@@ -163,7 +164,8 @@ Page Four
 }
 
 .main section.page4 ul {
-    font-size: 310%;
+    font-size: 230%;
+    line-height: 155%;
     margin: 15px 0 0 0;
 }
 
