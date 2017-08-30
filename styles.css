@@ -251,9 +251,11 @@ Page Five
 @media only screen and (max-width: 955px) {
     .plans .plan1, .plans .plan2, .plans .plan3 {
 	width: 100%;
+	font-size: 75%;
+}
 }
 
-}
+
 
 /*********************
 Page Six
