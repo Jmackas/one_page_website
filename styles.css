@@ -176,10 +176,6 @@ Page Five
     background: #272727;
 }
 
-.main section.page5 p {
-	font-size: 185%
-}
-
 .main section.page5 h4 {
 	font-size: 150%;
 	margin: 18px;
@@ -243,6 +239,15 @@ Page Six
 	background: #006c9b;
 }
 
+.main section.page6 p {
+	font-size: 185%;
+}
+
+footer {
+	background: black;
+	position: static;
+	bottom: 0;
+}
 
 
 
