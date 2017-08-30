@@ -90,7 +90,13 @@ Page One
 	/* margin: 0 0 0 0; */
 	position: fixed;
 	bottom: 0;
+	left: 0;
+	border-top-right-radius: 34px;
 	padding: 30px;
+}
+
+.contactUs:hover {
+	background: #0090ce;
 }
 
 .contactUs a {
