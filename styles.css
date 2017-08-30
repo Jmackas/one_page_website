@@ -154,9 +154,9 @@ Page Three
 
 @media only screen and (max-width: 570px) {
     .main section.page3 ul {
-		    font-size: 175%;
-    line-height: 155%;
-    margin: 15px 0 0 0;
+		font-size: 125%;
+		line-height: 175%;
+		margin: 15px 0 0 -30px;
 	}
 }
 
@@ -182,6 +182,14 @@ Page Four
     font-size: 175%;
     line-height: 155%;
     margin: 15px 0 0 0;
+}
+
+@media only screen and (max-width: 570px) {
+    .main section.page4 ul {
+		font-size: 120%;
+		line-height: 210%;
+		margin: 15px 0 0 -30px;
+	}
 }
 
 /*********************
