@@ -216,6 +216,12 @@ Page Five
 	padding: 20px;
 	display: inline-block;
 	background: #006c9b;
+	transition: .3s ease-in-out;
+	margin: 15px 0 0 0;
+}
+
+.buyNowBtn:hover {
+	background: #0090ce;
 }
 
 .buyNowBtn a {
