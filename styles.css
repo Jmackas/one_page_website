@@ -1,15 +1,11 @@
 /*********************
 Universal Elements
 *********************/
-@font-face {
-    font-family: raleway;
-    src: url(elements/Raleway-Regular.ttf);
-}
-		  
+
 
 body {
     color: white;
-    font-family: raleway;
+    font-family: "ubuntu", arial, serif;
     text-align: center;
     margin: 0;
 }
