@@ -104,18 +104,22 @@ Page One
 /*********************
 Page Two
 *********************/
+.aboutDouble {
+	display: flex;
+	align-items: center;
+}
+
 .main section.page2 {
     background: #006c9b;
 }
 
 /* Left image */
 .aboutDouble .logoImg {
-    float: left;
-    width: 35%;
+    width: 90%;
 }
 
 .aboutDouble .logoImg img {
-    width: 85%;
+    width: 100%;
 }
 
 /* Right image */
@@ -126,7 +130,6 @@ Page Two
 
 @media only screen and (max-width: 570px) {
     .aboutDouble .blurb {
-        float: initial;
         padding: 0 10px;
     }
 
