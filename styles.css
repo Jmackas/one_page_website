@@ -269,6 +269,17 @@ section.page7.ops-section hr {
     padding: 0; 
 }
 
+/* Custom 'buy now" styling */
+section.page7.ops-section .buyNowBtn {
+    padding: 2% 3% 2% 3%;
+    background: #003146;
+}
+
+section.page7.ops-section .buyNowBtn:hover {
+    background: #004461;
+}
+
+
 
 
 /*********************
