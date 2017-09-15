@@ -211,7 +211,7 @@ Page Five
 }
 
 .plans .plan1 {
-	background: #8d3714;
+	background: #444444;
 	width: 15%;
 	padding: 7px;
 }
@@ -221,11 +221,11 @@ Page Five
     border-right: 7px solid orange;
     border-left: 7px solid orange;
     width: 30%;
-    background: #6d6d6d;
+    background: #8a8a8a;
 }
 
 .plans .plan3 {
-    background: goldenrod;
+    background: #ffa500;
     width: 15%;
     padding: 7px;
 }
@@ -252,6 +252,13 @@ Page Five
 	width: 100%;
 	font-size: 75%;
 }
+}
+
+/*********************
+Page Five
+*********************/
+section.page7.ops-section.active {
+    background: red;
 }
 
 
