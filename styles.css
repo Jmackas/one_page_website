@@ -255,7 +255,7 @@ Page Five
 }
 
 /*********************
-Page Five
+Page 5.5
 *********************/
 section.page7.ops-section {
     background-image: url(https://i.imgur.com/gQg1s5Y.png);
@@ -271,12 +271,16 @@ section.page7.ops-section hr {
 
 /* Custom 'buy now" styling */
 section.page7.ops-section .buyNowBtn {
-    padding: 2% 3% 2% 3%;
-    background: #003146;
+    background: #002433;
+    padding: 2% 3%;
+}
+
+section.page7.ops-section a {
+	color: white;
 }
 
 section.page7.ops-section .buyNowBtn:hover {
-    background: #004461;
+    background: #00354c;
 }
 
 
