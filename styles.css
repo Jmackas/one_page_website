@@ -257,8 +257,16 @@ Page Five
 /*********************
 Page Five
 *********************/
-section.page7.ops-section.active {
-    background: red;
+section.page7.ops-section {
+    background-image: url(https://i.imgur.com/gQg1s5Y.png);
+}
+
+section.page7.ops-section hr {
+	display: block;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    margin: 1% 0;
+    padding: 0; 
 }
 
 
@@ -305,7 +313,6 @@ Page Six
 @media only screen and (max-width: 570px) {
     .contactUsNow {
 	width: 100%;
-	
 }
 }
 
