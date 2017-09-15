@@ -1,0 +1,2 @@
+- Find out how to smooth image ends.
+- The website goes weird after selecting 'Contact Us' on the first page.

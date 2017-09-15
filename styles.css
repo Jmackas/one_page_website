@@ -1,0 +1,336 @@
+/*********************
+Universal Elements
+*********************/
+
+
+body {
+    color: white;
+    font-family: "ubuntu", arial, serif;
+    text-align: center;
+    margin: 0;
+}
+
+.page_container {
+		animation: fadein 4s;
+}
+	@keyframes fadein {
+				from {
+					opacity:0;
+				}
+				to {
+					opacity:1;
+				}
+			
+
+}
+
+h1 {
+    font-size: 1220%;
+    margin: 0 0 0 0;
+}
+
+h2 {
+    font-size: 800%;
+    margin: 0 0 0 0;
+}
+
+h3 {
+    font-size: 350%;
+    margin: 0 0 0 0;
+}
+
+/* List styling dashes */
+.main li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.main li:before {
+    content: '- ';
+}
+
+/* Side list colour change */
+.onepage-pagination li a:before {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.onepage-pagination li a.active:before {
+    border: 1px solid white;
+}
+
+/* Header size decreases */
+@media only screen and (max-width: 570px) {
+    h1 {
+        font-size: 705%;
+    }
+
+    h2 {
+        font-size: 336%;
+    }
+
+    h3 {
+        font-size: 170%;
+    }
+}
+
+/*********************
+Page One
+*********************/
+.main section.page1 {
+    background: #272727;
+}
+
+.contactUs {
+	background: #006c9b;
+	display: inline-block;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	border-top-right-radius: 34px;
+	padding: 30px;
+	transition: .3s ease-in-out;
+}
+
+.contactUs:hover {
+	background: #0090ce;
+}
+
+.contactUs a {
+	text-decoration: none;
+	color: white;
+	padding: 30px;
+}
+
+/*********************
+Page Two
+*********************/
+.aboutDouble {
+	display: flex;
+	align-items: center;
+}
+
+.main section.page2 {
+    background: #006c9b;
+}
+
+/* Left image */
+.aboutDouble .logoImg {
+    width: 100%;
+}
+
+.aboutDouble .logoImg img {
+    width: 100%;
+}
+
+/* Right image */
+.aboutDouble .blurb {
+    font-size: 210%;
+    padding: 0 60px 0 0;
+}
+
+@media only screen and (max-width: 570px) {
+    .aboutDouble .blurb {
+        padding: 0 10px;
+    }
+
+    .aboutDouble img {
+        display: none;
+    }
+}
+
+/*********************
+Page Three
+*********************/
+.main section.page3 {
+    background: #272727;
+}
+
+.main section.page3 ul {
+    font-size: 175%;
+    line-height: 155%;
+    margin: 15px 0 0 0;
+}
+
+@media only screen and (max-width: 570px) {
+    .main section.page3 ul {
+		font-size: 125%;
+		line-height: 175%;
+		margin: 15px 0 0 -30px;
+	}
+}
+
+/*********************
+Page Four
+*********************/
+.main section.page4 {
+    background: #006c9b;
+}
+
+.main section.page4 img {
+	width: 20%;
+}
+
+@media only screen and (max-width: 955px) {
+    .main section.page4 img {
+	display: none;
+}
+
+}
+
+.main section.page4 ul {
+    font-size: 175%;
+    line-height: 155%;
+    margin: 15px 0 0 0;
+}
+
+@media only screen and (max-width: 570px) {
+    .main section.page4 ul {
+		font-size: 120%;
+		line-height: 210%;
+		margin: 15px 0 0 -30px;
+	}
+}
+
+/*********************
+Page Five
+*********************/
+.main section.page5 {
+    background: #272727;
+}
+
+.main section.page5 h4 {
+	font-size: 150%;
+	margin: 18px;
+	text-shadow: 1.5px 1.5px 1.5px black;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+}
+
+.plans .plan1 {
+	background: #444444;
+	width: 15%;
+	padding: 7px;
+}
+
+.plans .plan2 {
+    border-top: 7px solid orange;
+    border-right: 7px solid orange;
+    border-left: 7px solid orange;
+    width: 30%;
+    background: #8a8a8a;
+}
+
+.plans .plan3 {
+    background: #ffa500;
+    width: 15%;
+    padding: 7px;
+}
+
+.buyNowBtn {
+	padding: 20px;
+	display: inline-block;
+	background: #006c9b;
+	transition: .3s ease-in-out;
+	margin: 15px 0 0 0;
+}
+
+.buyNowBtn:hover {
+	background: #0090ce;
+}
+
+.buyNowBtn a {
+	padding: 20px;
+	color: white;
+}
+
+@media only screen and (max-width: 955px) {
+    .plans .plan1, .plans .plan2, .plans .plan3 {
+	width: 100%;
+	font-size: 75%;
+}
+}
+
+/*********************
+Page 5.5
+*********************/
+section.page7.ops-section {
+    background-image: url(https://i.imgur.com/gQg1s5Y.png);
+}
+
+section.page7.ops-section hr {
+	display: block;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    margin: 1% 0;
+    padding: 0; 
+}
+
+/* Custom 'buy now" styling */
+section.page7.ops-section .buyNowBtn {
+    background: #002433;
+    padding: 2% 3%;
+}
+
+section.page7.ops-section a {
+	color: white;
+}
+
+section.page7.ops-section .buyNowBtn:hover {
+    background: #00354c;
+}
+
+
+
+
+/*********************
+Page Six
+*********************/
+.main section.page6 {
+	background: #006c9b;
+}
+
+.main section.page6 p {
+	font-size: 185%;
+}
+
+.contactUsNow {
+	display: inline-block;
+	background: #272727;
+	transition: .3s ease-in-out;
+	margin: 15px 0 0 0;
+	transition: .3s ease-in-out;
+}
+
+.contactUsNow:hover {
+	background: #4d4d4d;
+}
+
+.contactUsNow a {
+	padding: 30px 60px;
+	color: white;
+	display: block;
+	transition: .3s ease-in-out;
+}
+
+.contactDet {
+	font-size: 130%;
+}
+
+.contactDet a {
+	color: white;
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 570px) {
+    .contactUsNow {
+	width: 100%;
+}
+}
+
+
+
+
